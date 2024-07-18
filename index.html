@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <h1>Kalkulator BMI</h1>
+    <form action="">
+        <div class="genderSelect">
+            <span>Jenis Kelamin: </span>
+            <input type="radio" name="gender" id="gender_M" value="Pria"> <label for="gender_M">Pria</label>
+            <input type="radio" name="gender" id="gender_F" value="Wanita"> <label for="gender_F">Wanita</label>
+        </div>
+        <div class="numberEntry">
+            <input type="number" id="weightBMI" placeholder="Berat Badan (Kg)" min="25"  unit="Kg">
+            <input type="number" id="ageBMI" placeholder="Usia (Minimal 18 Tahun)" min="18" unit="Tahun">
+            <input type="number" id="heightBMI" placeholder="Tinggi Badan (cm)" min="60" unit="cm">
+        </div>
+        <div class="buttonsForm">
+            <input type="button" value="Hitung" onclick="hitungBMI()">
+            <input type="reset" value="Reset" onclick="resetAll()">
+        </div>
+    </form>
+    <div class="displayHasil hidden">
+        <h1>Hasil Perhitungan</h1>
+        <div class="displayHasilBox">
+            <p id="hasilBMI"></p>
+            <p id="kategoriBMI"></p>
+        </div>
+    </div>
+</body>
+
+</html>

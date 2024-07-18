@@ -1,0 +1,59 @@
+html {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 24pt;
+    padding: 3pt;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+
+form {
+    background: aliceblue;
+    border-radius: 7px;
+    border: 2px solid royalblue;
+    padding: 18px;
+}
+
+.hidden{
+    display: none;
+}
+
+.genderSelect {
+    flex-direction: row;
+}
+
+.displayHasilBox{
+    background: aliceblue;
+    border-radius: 7px;
+    border: 2px solid royalblue;
+    padding: 18px;
+}
+
+p#hasilBMI {
+    margin-block: 7px;
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+p#kategoriBMI {
+    margin-block: 7px;
+    font-weight: bold;
+}
