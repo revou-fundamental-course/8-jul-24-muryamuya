@@ -31,7 +31,7 @@ form {
     padding: 18px;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -39,7 +39,7 @@ form {
     flex-direction: row;
 }
 
-.displayHasilBox{
+.displayHasilBox {
     background: aliceblue;
     border-radius: 7px;
     border: 2px solid royalblue;
